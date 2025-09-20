@@ -119,3 +119,5 @@ start_xbot.sh
 # Test
 test_bot.py
 test_bot.py
+start_bot.sh
+restart.sh
