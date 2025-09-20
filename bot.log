@@ -1,0 +1,13 @@
+2025-09-19 20:26:52,315 - __main__ - INFO - Loaded config: 1 groups, 1 admins
+2025-09-19 20:26:52,315 - __main__ - INFO - Loaded data format 2.0
+Traceback (most recent call last):
+  File "/Users/alianari3/Desktop/Code/PersonalRepo/tgbot3/main.py", line 2283, in <module>
+    bot.run()
+    ~~~~~~~^^
+  File "/Users/alianari3/Desktop/Code/PersonalRepo/tgbot3/main.py", line 2272, in run
+    self.setup_scheduler(self.application.job_queue)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alianari3/Desktop/Code/PersonalRepo/tgbot3/main.py", line 2091, in setup_scheduler
+    for course_id, schedule in queue_manager.course_schedules.items():
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QueueManager' object has no attribute 'course_schedules'. Did you mean: 'group_schedules'?
