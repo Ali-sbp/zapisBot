@@ -109,11 +109,13 @@ logs/
 # Bot specific files
 bot.log
 queue_data.json.bak
-#bash
+
+# bash
 killbot.sh 
-restar.sh
+restart.sh
 runbot.sh
-start__bot.sh
+start_xbot.sh
+
 # Test
 test_bot.py
 test_bot.py
