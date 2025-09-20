@@ -114,3 +114,6 @@ killbot.sh
 restar.sh
 runbot.sh
 start__bot.sh
+# Test
+test_bot.py
+test_bot.py
